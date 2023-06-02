@@ -80,8 +80,41 @@ Dann wird im Hintergrund die "greet()" Function aufgerufen. In dieser wird der T
 ---
 **Frage:**
 
-18.)\
-a. Erklären Sie den Begriff „Responsives Webdesign“\
-b. und stellen Sie die Flex-Box-Technik an Hand von Beispielen genauer vor
+### a. Erklären Sie den Begriff „Responsives Webdesign“
+
+Responsives Webdesign bezieht sich auf die Gestaltung und Entwicklung von Websites, die sich automatisch an verschiedene Bildschirmgrößen und Geräte anpassen. 
+Das Ziel des responsiven Webdesigns besteht darin, sicherzustellen, dass eine Website unabhängig vom verwendeten Gerät oder der Bildschirmgröße optimal dargestellt
+wird, indem das Layout und die Elemente der Website flexibel und dynamisch angepasst werden.
+
+Durch den Einsatz von responsivem Webdesign wird sichergestellt, dass Benutzer die Website auf Desktop-Computern, Laptops, Tablets oder Smartphones gleichermaßen
+gut betrachten und bedienen können, ohne dass sie horizontal scrollen oder unleserlich kleine Elemente sehen müssen.
+Das responsive Design ermöglicht eine optimierte Benutzererfahrung und verbessert die Zugänglichkeit der Website auf verschiedenen Geräten.
+
+Um eine responsive Website zu erstellen, werden verschiedene Techniken eingesetzt, wie z.B. flexible Rasterlayouts, Media Queries und mobile Navigation. 
+Durch den Einsatz dieser Techniken kann die Website auf Basis der Bildschirmgröße, des Seitenverhältnisses und der Ausrichtung des Geräts unterschiedliche 
+CSS-Regeln anwenden und so das Erscheinungsbild und die Anordnung der Elemente anpassen.
+
+
+### b. und stellen Sie die Flex-Box-Technik an Hand von Beispielen genauer vor
+
+Die Flexbox-Technik ist eine CSS-Layout-Methode, die es ermöglicht, flexible und dynamische Layouts zu erstellen. Mit Flexbox können Elemente in einem 
+Container entweder horizontal oder vertikal ausgerichtet und in Reihen und Spalten angeordnet werden, um auf unterschiedliche 
+Bildschirmgrößen und -ausrichtungen zu reagieren.
+
+Beispiel:
+
+```css
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: lightgray;
+}
+```
 
 ---
